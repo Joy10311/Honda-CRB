@@ -21,17 +21,43 @@
 <body>
     <!-- header start -->
     <header class=" header-bg-warning">
-        <div class="container d-flex gy-5 align-items-center">
-            <div class="text-white">
-                <p>Computer-controlled digital transistorized with electronic advance</p>
-                <h1 class="fw-bold">Honda CBR 300R</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+        <div class="container lg-d-flex gy-5 align-items-center">
+            <div>
+                <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="fw-bold text-white">Honda CBR 300R</h1>
+                <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                    officia consequat
                     duis
                     enim
                     velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button class="bg-danger bg-gradient text-white rounded-3 p-15">
-                    purchase
+                <!-- modal option  -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn modal-btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Purchase
                 </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Extreme power</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                The Honda Hness CB350 is powered by 348.36cc BS6 engine which develops a power of 20.78
+                                bhp and a torque of 30 Nm.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div>
                 <img class="img-fluid" src="images/header-bike.png" alt="">
@@ -46,7 +72,7 @@
                 <h2 class="fw-bold">Fetured Bikes 2021</h2>
                 <small>Best bike collection</small>
             </div>
-            <div class="container d-flex justify-content-around">
+            <div class="container lg-d-flex justify-content-around">
                 <img class="featured-gray" src="images/feature-bike.jpg" alt="">
                 <img width="288" height="243" src="images/feature-bike.jpg" alt="">
                 <img class="featured-gray" src="images/feature-bike.jpg" alt="">
@@ -58,7 +84,7 @@
             <div class="text-center  mt-5 mb-5">
                 <h1 class="fw-bold">Happy <span class="client-mod">Clients says</span> </h1>
             </div>
-            <div class="container d-flex">
+            <div class="container lg-d-flex">
                 <div class="row">
                     <div class="col-10 border border-3 shadow-sm p-3 mb-5 bg-body ">
                         <img class="gy-5 ms-5" width=" 149" height="149" src="images/user-1.png" alt="">
@@ -106,6 +132,94 @@
                 </div>
 
             </div>
+        </section>
+        <!-- FAQ Section  -->
+        <section class="container">
+            <div class="text-center pt-5">
+                <h1 class="fw-bold">Frequently <span class="client-mod">Asked Questions</span></h1>
+            </div>
+            <div class="lg-d-flex pt-5">
+                <div class="container">
+                    <div>
+                        <img width="430" height="420" src="images/faq.png" alt="">
+                    </div>
+                </div>
+                <!-- accordion part -->
+
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                What are the most important things I should
+                                know about riding a bike?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all
+                                traffic
+                                signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                your
+                                bike. This will help you be a more focused and legally compliant bike rider. </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                How can I tell if my helmet is old and I need a
+                                new one?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all
+                                traffic
+                                signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                your
+                                bike. This will help you be a more focused and legally compliant bike rider</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                My bike has been in storage is it safe to ride?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all
+                                traffic
+                                signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                your
+                                bike. This will help you be a more focused and legally compliant bike rider</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                What rules should I follow when riding my bike?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all
+                                traffic
+                                signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                your
+                                bike. This will help you be a more focused and legally compliant bike rider</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
     </main>
 
