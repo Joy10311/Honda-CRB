@@ -1,0 +1,17 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-bg-warning{
+    background: #264653;
+    height: 400px;
+    width: 100%;
+}
+.featured-gray{
+    filter: grayscale(100%);
+    width: 288px;
+    height: 243px;
+}
+.client-mod{
+    color: #E76F51;
+}
